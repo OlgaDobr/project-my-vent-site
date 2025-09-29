@@ -1,0 +1,27 @@
+	/* src/components/Footer/Footer.css */
+	.custom-footer {
+	  background-color: #343a40; /* Темный фон */
+	  color: #fff;
+	}
+	
+	.custom-footer h5 {
+	  color: #fff;
+	  margin-bottom: 20px;
+	}
+	
+	.custom-footer ul li {
+	  margin-bottom: 10px;
+	}
+	
+	.custom-footer ul li a {
+	  color: #adb5bd;
+	  text-decoration: none;
+	}
+	
+	.custom-footer ul li a:hover {
+	  color: #fff;
+	}
+	
+	.custom-footer hr {
+	  border-color: #495057;
+	}

@@ -1,0 +1,8 @@
+.imageid1 {
+	  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJX-kYvDgKNCn-bkvcMbq1s7T1PKtly6hRQw&s') no-repeat center center/cover;
+	  min-height: 60vh;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	}
+	

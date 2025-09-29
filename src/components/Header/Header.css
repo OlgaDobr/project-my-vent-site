@@ -1,0 +1,15 @@
+	/* src/components/Header/Header.css */
+	.custom-header {
+	  background-color: #96b40e !important; /* Пример цвета фона */
+	  box-shadow: 0 2px 4px rgba(191, 187, 76, 0.1);
+	}
+	
+	.custom-header .nav-link {
+	  color: #e418aa !important; /* Цвет ссылок */
+	  font-weight: 500;
+	}
+	
+	.custom-header .nav-link:hover {
+	  color: #350bb2 !important; /* Цвет ссылок при наведении */
+	}
+	
