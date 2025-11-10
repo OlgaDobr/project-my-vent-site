@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Header.css'; // Ваши стили для хедера
-//import logo from '../src/assets/img/logo.png';
+import logo from '../../assets/img/logo.png';
 
 function Header() {
     return (
@@ -11,9 +11,9 @@ function Header() {
                 <Navbar.Brand as={Link} to="/">
                 
                     <img
-                        src="..//Users/olga/Учеба/ДИПЛОМНЫЙ ПРОЕКТ/ПРОЕКТ 2 с контентом вент сайт/my-vent-site/src/assets/img/logo.png" // Путь к вашему логотипу
-                        width="150"
-                        height="50"
+                        src = {logo} // Путь к вашему логотипу
+                        width="90"
+                        height="70"
                         className="d-inline-block align-top"
                         alt="Логотип компании"
                     />
@@ -26,6 +26,7 @@ function Header() {
                         	            <Nav.Link as={Link} to="/services">Услуги</Nav.Link>
                         	            <Nav.Link as={Link} to="/products">Продукты</Nav.Link>
                         	            <Nav.Link as={Link} to="/contact">Контакты</Nav.Link>
+                                        <Nav.Link as={Link} to="/carousel">Наши объекты</Nav.Link>
                         	          </Nav>
                     	        </Navbar.Collapse>
                 	      </Container>

@@ -1,0 +1,57 @@
+.section {
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;   /*  Центрирование заголовка  */
+}
+
+.section-content {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+ /*  Дополнительные стили (например, для секций с особым оформлением) */
+.section.highlighted {
+  background-color: #e6f7ff;
+  border: 1px solid #91d5ff;
+}
+
+.section.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.section.dark .section-title {
+  color: #fff;
+}
+
+.section.dark .section-content {
+  color: #ddd;
+}
+
+/* Медиа-запросы для адаптивного дизайна */
+@media (max-width: 768px) {
+  .section {
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .section-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .section-content {
+    font-size: 14px;
+  }
+}

@@ -3,13 +3,14 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import Section from '../components/Section/Section';
 import Card from '../components/Card/Card';
 import './HomePage.css'; // Стили для главной страницы
-//import ВентиляторYWF4E from '../src/assets/img/Вентилятор YWF-4-E.jpeg';
+import Вентилятор from '../assets/img/Вентилятор.jpeg';
+import Онас from "../assets/img/О нас.jpeg";
 
 	
 	function HomePage() {
 	  // Пример данных (в реальном приложении будут получены с бэкенда)
 	  const featuredProducts = [
-	    { id: 1, imageUrl: '..//Users/olga/Учеба/ДИПЛОМНЫЙ ПРОЕКТ/ПРОЕКТ 2 с контентом вент сайт/my-vent-site/src/assets/img/Вентилятор YWF-4-E.jpeg', title: 'Вентилятор YWF-4-E', description: 'Высокоэффективный осевой вентилятор для промышленных применений.', link: '#' },
+	    { id: 1, imageUrl: '../assets/img/Вентилятор.jpeg', title: 'Вентилятор', description: 'Высокоэффективный осевой вентилятор для промышленных применений.', link: '#' },
 	    { id: 2, imageUrl: '/images/product2.jpg', title: 'Воздуховод гибкий', description: 'Гибкие воздуховоды из ПВХ, армированные спиралью.', link: '#' },
 	    { id: 3, imageUrl: '/images/product3.jpg', title: 'Система фильтрации воздуха', description: 'Комплексные решения для очистки воздуха в помещениях.', link: '#' },
 	  ];
@@ -33,7 +34,14 @@ import './HomePage.css'; // Стили для главной страницы
 	            <Button variant="outline-primary" href="/about">Узнать больше</Button>
 	          </Col>
 	          <Col md={6}>
-	            <img src="/img/Без названия.jpeg" alt="О нас" className="img-fluid rounded" />
+			  <h3>О нас</h3>
+	            <img src={Онас}
+				padding="45"
+				margin="100"
+				width="200"
+				height="70"
+				
+				alt="О нас" className="img-fluid rounded" />
 	          </Col>
 	        </Row>
 	      </Section>

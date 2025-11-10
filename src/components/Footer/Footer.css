@@ -1,27 +1,35 @@
 	/* src/components/Footer/Footer.css */
 	.custom-footer {
-	  background-color: #343a40; /* Темный фон */
+	  background-color: #4b4aa2; /* Темный фон */
 	  color: #fff;
 	}
 	
 	.custom-footer h5 {
-	  color: #fff;
+	  color: #5ef1e2;
 	  margin-bottom: 20px;
 	}
 	
 	.custom-footer ul li {
 	  margin-bottom: 10px;
+	  color: darkblue;
 	}
 	
 	.custom-footer ul li a {
-	  color: #adb5bd;
+	  color: #beec19;
 	  text-decoration: none;
+	  font-family: monospace;
+	  font-weight: 600;
+	  font-size: 23;
 	}
 	
 	.custom-footer ul li a:hover {
-	  color: #fff;
+	  color: #400c6e;
 	}
 	
 	.custom-footer hr {
 	  border-color: #495057;
+	}
+	
+	.h5 {
+
 	}

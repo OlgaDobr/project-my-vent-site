@@ -1,5 +1,5 @@
 	.hero-section {
-	  background: url('/Users/olga/Учеба/ДИПЛОМНЫЙ ПРОЕКТ/ПРОЕКТ 2 с контентом вент сайт/my-vent-site/src/assets/img/ventilyatsiya2.jpg') no-repeat center center/cover;
+	  background: url('../../src/assets/img/ventilyatsiya2.jpg') no-repeat center center/cover;
 	  min-height: 60vh;
 	  display: flex;
 	  align-items: center;
@@ -22,4 +22,9 @@
 	}
 	h1 {
     color: blue;
+	}
+
+	.id1 {
+		background: url('../assets/img/Вентилятор YWF-4-E.jpeg');
+
 	}

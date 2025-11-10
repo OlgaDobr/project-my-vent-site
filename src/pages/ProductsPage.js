@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Form } from 'react-bootstrap';
+import axios from 'axios';
 import Section from '../components/Section/Section';
 import Card from '../components/Card/Card';
+import ProductCard from '../components/ProductCard/ProductCard';
 import './ProductsPage.css'; // Стили для страницы продуктов
+import ВентиляторYWF4E from "../assets/img/Вентилятор YWF-4-E.jpeg"; 
+
+    
 	
 	function ProductsPage() {
 	  const [products, setProducts] = useState([]);
@@ -12,7 +17,7 @@ import './ProductsPage.css'; // Стили для страницы продук�
 	  useEffect(() => {
 	    // Имитация загрузки данных
 	    const fetchedProducts = [
-	      { id: 1, imageUrl: '/img/ img5.jpg', title: 'Вентилятор YWF-4-E', description: 'Высокоэффективный осевой вентилятор для промышленных применений.', link: '/products/1' },
+	      { id: 1, imageUrl: '/img/Вентилятор YWF-4-E.jpeg', title: 'Вентилятор YWF-4-E', description: 'Высокоэффективный осевой вентилятор для промышленных применений.', link: '/products/1' },
 	      { id: 2, imageUrl: '/images/product2.jpg', title: 'Воздуховод гибкий', description: 'Гибкие воздуховоды из ПВХ, армированные спиралью.', link: '/products/2' },
 	      { id: 3, imageUrl: '/images/product3.jpg', title: 'Система фильтрации воздуха', description: 'Комплексные решения для очистки воздуха в помещениях.', link: '/products/3' },
 	      { id: 4, imageUrl: '/images/product4.jpg', title: 'Рекуператор тепла', description: 'Энергоэффективные решения для вентиляции с рекуперацией тепла.', link: '/products/4' },
@@ -29,6 +34,7 @@ import './ProductsPage.css'; // Стили для страницы продук�
 	
 	  return (
 	    <div>
+			<Container>
 	      <Section title="Наши Продукты">
 	        <Form.Group className="mb-4">
 	          <Form.Control
@@ -58,6 +64,7 @@ import './ProductsPage.css'; // Стили для страницы продук�
 	          )}
 	        </Row>
 	      </Section>
+		  </Container>
 	    </div>
 	  );
 	}

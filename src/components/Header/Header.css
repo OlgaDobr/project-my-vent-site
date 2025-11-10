@@ -1,12 +1,14 @@
 	/* src/components/Header/Header.css */
 	.custom-header {
-	  background-color: #96b40e !important; /* Пример цвета фона */
-	  box-shadow: 0 2px 4px rgba(191, 187, 76, 0.1);
+	  background-color: #39c1e7 !important; /* Пример цвета фона */
+	  box-shadow: 0 2px 4px rgba(144, 112, 25, 0.1);
 	}
 	
 	.custom-header .nav-link {
 	  color: #e418aa !important; /* Цвет ссылок */
 	  font-weight: 500;
+	  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	  font-size: 26px;
 	}
 	
 	.custom-header .nav-link:hover {

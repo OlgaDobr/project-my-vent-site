@@ -12,13 +12,14 @@ import Section from '../components/Section/Section';
 	
 	  return (
 	    <div>
+			<Container>
 	      <Section title="Свяжитесь с нами">
 	        <Row>
 	          <Col md={6}>
 	            <h3>Наши Контакты</h3>
 	            <p>
 	              <i className="fas fa-map-marker-alt me-2"></i>
-	              <strong>Адрес:</strong> г. Красндар, ул. Примерная, д. 1
+	              <strong>Адрес:</strong> г. Москва, ул. Примерная, д. 1
 	            </p>
 	            <p>
 	              <i className="fas fa-phone me-2"></i>
@@ -26,7 +27,7 @@ import Section from '../components/Section/Section';
 	            </p>
 	            <p>
 	              <i className="fas fa-envelope me-2"></i>
-	              <strong>Email:</strong> info@yourcompany.com
+	              <strong>Email:</strong> info@ventindusty.com
 	            </p>
 	            <p>
 	              <i className="fas fa-clock me-2"></i>
@@ -76,6 +77,7 @@ import Section from '../components/Section/Section';
 	          </Col>
 	        </Row>
 	      </Section>
+		  </Container>
 	    </div>
 	  );
 	}
