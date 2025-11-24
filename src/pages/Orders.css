@@ -1,0 +1,26 @@
+.table-responsive {
+  overflow-x: auto; /*  Добавляет горизонтальную прокрутку для маленьких экранов */
+}
+
+
+.table th,
+.table td {
+  text-align: center;
+  background-color: rgb(126, 211, 21);
+}
+
+.btn-primary {
+  background-color: #097f9c; 
+  border-color: #a7094b;
+  border-radius: 30px;
+  border-radius: 50px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.customer {
+    text-size-adjust:inherit;
+}

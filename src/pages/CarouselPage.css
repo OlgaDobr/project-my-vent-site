@@ -1,0 +1,70 @@
+.carousel-container {
+  position: absolute;
+  width: 100%;
+  max-width: 1200px; /* Максимальная ширина */
+  margin: 0 auto; /* Центрирование */
+  padding: 20px 0;
+}
+
+/* Стиль для самой карусели */
+.carousel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 70px; /* Скругление углов */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Тень */
+}
+
+/* Обертка слайда */
+.carousel-item {
+  transition: transform 0.5s ease-in-out; /* Плавный переход */
+}
+
+/* Стиль для изображений внутри слайдов */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Стиль для навигационных стрелок (предыдущий / следующий) */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  height: 100%;
+  background: rgba(144, 144, 228, 0.2);
+  opacity: 0.7;
+  transition: opacity 0.3s;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+/* Стиль для иконок стрелок */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+/* Можно задать свои иконки для стрелок, например через background-image */
+.carousel-control-prev-icon {
+  background-image: url('../assets/img icon/leftarrow_1241.png');
+}
+
+.carousel-control-next-icon {
+  background-image: url('../assets/img icon/arrowright_1240.png');
+}
+
+/* Адаптивные стили для мобильных устройств */
+@media (max-width: 768px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 10%;
+  }
+}

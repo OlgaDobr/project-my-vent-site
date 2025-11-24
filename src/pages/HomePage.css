@@ -28,3 +28,15 @@
 		background: url('../assets/img/Вентилятор YWF-4-E.jpeg');
 
 	}
+
+	.btn-primary {
+        background-color: #a01ee1; 
+        border-color: #a7094b;
+	    border-radius: 30px;
+        border-radius: 50px;
+    }
+
+    .btn-primary:hover {
+	    background-color: #0056b3;
+	    border-color: #0056b3;
+    }

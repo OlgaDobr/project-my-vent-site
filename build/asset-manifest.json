@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4dae0846.css",
+    "main.js": "/static/js/main.ebc9c93d.js",
+    "static/js/453.3d20e448.chunk.js": "/static/js/453.3d20e448.chunk.js",
+    "static/media/img9.jpg": "/static/media/img9.16142d66d72d5d48d09b.jpg",
+    "static/media/img8.jpg": "/static/media/img8.49a08922d49ddded207d.jpg",
+    "static/media/img6.jpg": "/static/media/img6.3de26aefc944f67b8eeb.jpg",
+    "static/media/img7.jpg": "/static/media/img7.9dac22c7a9d4aa021d48.jpg",
+    "static/media/ventilyatsiya2.jpg": "/static/media/ventilyatsiya2.7e1bd0d7eda688193521.jpg",
+    "static/media/img4.jpg": "/static/media/img4.307079511636a6e36b27.jpg",
+    "static/media/img14.jpg": "/static/media/img14.54ba592e0488f317180c.jpg",
+    "static/media/img2.jpg": "/static/media/img2.fb37b75b920b17c13500.jpg",
+    "static/media/img1.jpg": "/static/media/img1.ea8bddcea0d34ee099da.jpg",
+    "static/media/img5.jpg": "/static/media/img5.781d5e9e40e4c58024b8.jpg",
+    "static/media/img10.jpg": "/static/media/img10.ca8b901f15b87470a45f.jpg",
+    "static/media/img13.jpg": "/static/media/img13.2425603e7c2401cccb7d.jpg",
+    "static/media/img12.jpg": "/static/media/img12.0234e9a7dd947674c2bb.jpg",
+    "static/media/img3.jpg": "/static/media/img3.75320a839826ff45adf7.jpg",
+    "static/media/img11.jpg": "/static/media/img11.f130d755b18f6fc4d51d.jpg",
+    "static/media/img15.jpg": "/static/media/img15.53f4e31f7e7b9d310af7.jpg",
+    "static/media/img16.jpeg": "/static/media/img16.e1994b0967ce86c3871b.jpeg",
+    "static/media/img17.jpeg": "/static/media/img17.56d464c4427896cb05fd.jpeg",
+    "static/media/images (1).jpeg": "/static/media/images (1).5fdb249c5f7e40f1a739.jpeg",
+    "static/media/Вентилятор.jpeg": "/static/media/Вентилятор.487d949d4a0767021c12.jpeg",
+    "static/media/Проектирование систем вентиляции.jpeg": "/static/media/Проектирование систем вентиляции.890b9bd4b4e264d91c06.jpeg",
+    "static/media/Без названия (4).jpeg": "/static/media/Без названия (4).1b9050ce3c071545f4ec.jpeg",
+    "static/media/Монтаж и установка.jpeg": "/static/media/Монтаж и установка.5f71e56543d1e30523af.jpeg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.4dae0846.css.map": "/static/css/main.4dae0846.css.map",
+    "main.ebc9c93d.js.map": "/static/js/main.ebc9c93d.js.map",
+    "453.3d20e448.chunk.js.map": "/static/js/453.3d20e448.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4dae0846.css",
+    "static/js/main.ebc9c93d.js"
+  ]
+}

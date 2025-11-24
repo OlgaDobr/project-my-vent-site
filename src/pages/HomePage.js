@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import Section from '../components/Section/Section';
 import Card from '../components/Card/Card';
-import './HomePage.css'; // Стили для главной страницы
+import './HomePage.css'; 
 import Вентилятор from '../assets/img/Вентилятор.jpeg';
 import Онас from "../assets/img/О нас.jpeg";
 
@@ -10,7 +10,7 @@ import Онас from "../assets/img/О нас.jpeg";
 	function HomePage() {
 	  // Пример данных (в реальном приложении будут получены с бэкенда)
 	  const featuredProducts = [
-	    { id: 1, imageUrl: '../assets/img/Вентилятор.jpeg', title: 'Вентилятор', description: 'Высокоэффективный осевой вентилятор для промышленных применений.', link: '#' },
+	    { id: 1, imageUrl: '/images/product2.jpg', title: 'Вентилятор', description: 'Высокоэффективный осевой вентилятор для промышленных применений.', link: '#' },
 	    { id: 2, imageUrl: '/images/product2.jpg', title: 'Воздуховод гибкий', description: 'Гибкие воздуховоды из ПВХ, армированные спиралью.', link: '#' },
 	    { id: 3, imageUrl: '/images/product3.jpg', title: 'Система фильтрации воздуха', description: 'Комплексные решения для очистки воздуха в помещениях.', link: '#' },
 	  ];
@@ -30,7 +30,17 @@ import Онас from "../assets/img/О нас.jpeg";
 	      <Section title="Почему выбирают нас?">
 	        <Row className="align-items-center">
 	          <Col md={6}>
-	            <p>Мы предлагаем полный спектр услуг по проектированию, монтажу и обслуживанию систем вентиляции. Наша команда экспертов гарантирует высокое качество и индивидуальный подход к каждому клиенту.</p>
+	            <p>Мы предлагаем полный спектр услуг по проектированию, монтажу и обслуживанию систем вентиляции. 
+					Наша команда экспертов гарантирует высокое качество и индивидуальный подход к каждому клиенту.
+					За этот длинный промежуток времени, успели попробовать свои силы в создании правильного климата 
+					и воздухораспределения от частных домов, офисных помещений и небольших кафе, до обслуживания сети 
+					ресторанов и реализации промышленной вентиляции. Это позволило нам вырасти и предлагать Вам качественно 
+					выполненные системы любой сложности и в срок.
+                    Наша миссия – разрабатывать и запускать проекты, способные показать Вам, 
+		            правильный подход к созданию комфортного климата.
+                    Сегодня наши услуги подходят, как для жилых помещений, так и производственным предприятиям. 
+					При разработке технического решения систем вентиляции и кондиционирования, мы учитываем все 
+					пожелания, соблюдая требования и нормы.</p>
 	            <Button variant="outline-primary" href="/about">Узнать больше</Button>
 	          </Col>
 	          <Col md={6}>
@@ -52,11 +62,13 @@ import Онас from "../assets/img/О нас.jpeg";
 	          {featuredProducts.map(product => (
 	            <Col key={product.id} md={4} className="mb-4">
 	              <Card
-	                imageUrl={product.imageUrl}
+	                imageUrl={Вентилятор}
 	                title={product.title}
 	                description={product.description}
 	                link={product.link}
 	              />
+
+				  
 	            </Col>
 	          ))}
 	        </Row>

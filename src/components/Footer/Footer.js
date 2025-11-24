@@ -23,8 +23,10 @@ function Footer() {
                             <li><a href="/">Главная</a></li>
                             <li><a href="/about">О нас</a></li>
                             <li><a href="/services">Услуги</a></li>
-                            <li><a href="/products">Продукты</a></li>
                             <li><a href="/contact">Контакты</a></li>
+                            <li><a href="/privacypolicy">Политика конфиденциальности</a></li>
+                            
+                            
                         </ul>
                     </Col>
                     <Col md={4} className="mb-3">
@@ -40,7 +42,7 @@ function Footer() {
                 <hr />
                 <Row>
                     <Col className="text-center">
-                        <p className="mb-0">&copy; {currentYear} ООО "Вентиндустрия". Системы вентиляции и кондиционирования в Москве.</p>
+                        <p className="mb-0">&copy; {currentYear} ООО "Вентиндустрия". Системы вентиляции и кондиционирования.</p>
                     </Col>
                 </Row>
             </Container>

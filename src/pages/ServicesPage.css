@@ -60,6 +60,10 @@
 }
 
 
+id2 {
+  background: imageurl('../assets/img service/Монтаж и установка.jpeg');
+}
+
 id1 {
-  background: url('../assets/img/Без названия 2.jpeg');
+  background: url('../assets/img service/Проектирование систем вентиляции.jpeg');
 }

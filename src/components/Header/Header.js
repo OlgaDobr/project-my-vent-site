@@ -27,6 +27,8 @@ function Header() {
                         	            <Nav.Link as={Link} to="/products">Продукты</Nav.Link>
                         	            <Nav.Link as={Link} to="/contact">Контакты</Nav.Link>
                                         <Nav.Link as={Link} to="/carousel">Наши объекты</Nav.Link>
+                                        <Nav.Link as={Link} to="/orders">Заказы</Nav.Link>
+                                        <Nav.Link as={Link} to="/orders">Детали заказа</Nav.Link>
                         	          </Nav>
                     	        </Navbar.Collapse>
                 	      </Container>

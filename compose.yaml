@@ -1,0 +1,59 @@
+services:
+  # web:
+  #   image: nginx:stable-alpine3.21-perl
+  #   ports:
+  #     - "8000:8080"
+  #   volumes:
+  #     - ./public:usr/share/nginx/html:ro
+  #     - ./.develop/nginx.conf:/etc/nginx/conf.d/default.conf
+  #   networks: 
+  #     - quiz-network
+
+  php-fpm:
+    build: .
+    container_name: laravel
+    env_file:
+      - ./.env
+    volumes:
+      - ./backend:/app
+    networks: 
+      - quiz-network
+  db:
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpasword
+      MYSQL_DATABASE: db
+      MYSQL_USER: Olga2005
+      MYSQL_PASSWORD: 24652465aaa
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./.develop/mysql_init:/docker-entrypoint-initdb.d
+    ports: 
+      - "3306:3306"
+    networks: 
+      - quiz-network
+
+  adminer:
+    image: adminer:4.8.1
+    ports:
+      - "8080:8080"
+    environment:
+      ADMINER_DEFAULT_SERVER: mysql
+      ADMINER_DEFAULT_USER: app_user
+      ADMINER_DEFAULT_DB: db
+      ADMINER_DESIGN: dracula
+    networks:
+      - quiz-network
+    depends_on:
+      - db 
+
+networks: 
+  quiz-network:  
+    driver: bridge
+
+volumes:
+  mysql_data:
+
+
+  
+ 

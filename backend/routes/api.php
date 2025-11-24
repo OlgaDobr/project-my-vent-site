@@ -15,5 +15,5 @@
 	
 	Route::get('/services', [ServiceController::class, 'index']);
 	
-	Route::post('/contact', [ContactController::class, 'send']);
+	Route::post('/contact', [AboutController::class, 'send']);
 	?>
