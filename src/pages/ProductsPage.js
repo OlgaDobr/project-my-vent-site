@@ -52,7 +52,6 @@ import Воздуховодгибкий from "../assets/img/Воздуховод
 	              <Col key={product.id} md={6} lg={4} className="mb-4">
 	                <Card
 	                  imageUrl={ВентиляторYWF4E}
-					  imageUrl={Воздуховодгибкий}
 	                  title={product.title}
 	                  description={product.description}
 	                  link={product.link}

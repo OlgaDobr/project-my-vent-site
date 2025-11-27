@@ -22,7 +22,7 @@
 /* Стиль для изображений внутри слайдов */
 .carousel-item img {
   width: 100%;
-  height: auto;
+  height: 50%;
   display: block;
   object-fit: cover;
 }

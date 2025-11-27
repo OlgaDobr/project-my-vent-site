@@ -3,17 +3,22 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import Section from '../components/Section/Section';
 import Card from '../components/Card/Card';
 import './HomePage.css'; 
-import Вентилятор from '../assets/img/Вентилятор.jpeg';
+import img1 from '../assets/img/ img1.jpg';
+import img2 from '../assets/img/ img2.jpg';
+import img3 from '../assets/img/ img3.jpg';
+import img4 from '../assets/img/ img4.jpg';
 import Онас from "../assets/img/О нас.jpeg";
 
 	
 	function HomePage() {
 	  // Пример данных (в реальном приложении будут получены с бэкенда)
 	  const featuredProducts = [
-	    { id: 1, imageUrl: '/images/product2.jpg', title: 'Вентилятор', description: 'Высокоэффективный осевой вентилятор для промышленных применений.', link: '#' },
-	    { id: 2, imageUrl: '/images/product2.jpg', title: 'Воздуховод гибкий', description: 'Гибкие воздуховоды из ПВХ, армированные спиралью.', link: '#' },
-	    { id: 3, imageUrl: '/images/product3.jpg', title: 'Система фильтрации воздуха', description: 'Комплексные решения для очистки воздуха в помещениях.', link: '#' },
+	    { id: 1, imageUrl: img1, title: 'Вентилятор', description: 'Высокоэффективный осевой вентилятор для промышленных применений.', link: '#' },
+	    { id: 2, imageUrl: img2, title: 'Воздуховод гибкий', description: 'Гибкие воздуховоды из ПВХ, армированные спиралью.', link: '#' },
+	    { id: 3, imageUrl: img3, title: 'Система фильтрации воздуха', description: 'Комплексные решения для очистки воздуха в помещениях.', link: '#' },
+		{ id: 4, imageUrl: img4, title: 'Система фильтрации воздуха', description: 'Комплексные решения для очистки воздуха в помещениях.', fullDescription: 'филтрация воздуха новейшим оборудованием',link: '#' },
 	  ];
+	  
 	
 	  return (
 	    <div>
@@ -62,9 +67,10 @@ import Онас from "../assets/img/О нас.jpeg";
 	          {featuredProducts.map(product => (
 	            <Col key={product.id} md={4} className="mb-4">
 	              <Card
-	                imageUrl={Вентилятор}
+	                imageUrl={product.imageUrl}
 	                title={product.title}
-	                description={product.description}
+	                fullDescription={product.fullDescription}
+					description={product.description}
 	                link={product.link}
 	              />
 

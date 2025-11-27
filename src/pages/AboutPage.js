@@ -5,6 +5,8 @@ import './AboutPage.css'; // Стили
 import Нашакоманда from "../assets/img/images (1).jpeg";
 import Нашофис from "../assets/img/images (3).jpeg";
 import Нашиценности from "../assets/img/Без названия (4).jpeg";
+import ventvideo from "../assets/ventvideo.MP4";
+import ventvideo2 from "../assets/ventvideo2.MP4";
 
 	
 	function AboutPage() {
@@ -32,7 +34,46 @@ import Нашиценности from "../assets/img/Без названия (4).
 				alt="Наша команда" className="img-fluid rounded" />
 	          </Col>
 	        </Row>
+
+
+
+            <Row className="mt-5">
+	          <Col md={6}>
+	            <h4>Описание видео</h4>
+          <p>
+            Это описание вашего видео.  Расскажите, о чем оно, какие ключевые моменты затрагивает, и почему его стоит посмотреть. Вы можете добавить больше деталей и использовать HTML-теги для форматирования.
+          </p>
+                      <a href="#" className="btn btn-primary" >Подробнее</a>
+	          </Col>
+	          <Col md={6}>
+	                     <video width="30%" heigh="50%" controls>
+			<source src={ventvideo}
+            alt="ventvideo" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+	          </Col>
+	        </Row>
+
+
+			 <Row className="mt-5">
+	          <Col md={6}>
+	            <h4>Описание видео</h4>
+          <p>
+            Это описание вашего видео.  Расскажите, о чем оно, какие ключевые моменты затрагивает, и почему его стоит посмотреть. Вы можете добавить больше деталей и использовать HTML-теги для форматирования.
+          </p>
+                      <a href="#" className="btn btn-primary" >Подробнее</a>
+	          </Col>
+	          <Col md={6}>
+	                     <video width="60%" heigh="50%" controls>
+			<source src={ventvideo2}
+            alt="ventvideo2" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+	          </Col>
+	        </Row>
+
 	
+
 	        <Row className="mt-5">
 	          <Col md={6}>
 			  <h3>Наш офис</h3>
@@ -54,6 +95,11 @@ import Нашиценности from "../assets/img/Без названия (4).
 	      </Section>
 		  </Container>
 	    </div>
+
+
+
+         
+
 	  );
 	}
 	
