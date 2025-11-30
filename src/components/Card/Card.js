@@ -34,7 +34,7 @@ function MyCard(props) {
           <h2>{props.title} - Подробная информация</h2>
           {/* <p>Дополнительная информация, которую нужно отобразить...</p> */}
           <p>{props.fullDescription}</p>
-          <Button variant="secondary" onClick={handleBackClick}>Назад к карточке</Button>
+          <Button variant="secondary" onClick={handleBackClick}>Назад</Button>
         </div>
       )}
     </>

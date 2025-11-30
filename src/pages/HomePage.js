@@ -8,6 +8,7 @@ import img2 from '../assets/img/ img2.jpg';
 import img3 from '../assets/img/ img3.jpg';
 import img4 from '../assets/img/ img4.jpg';
 import Онас from "../assets/img/О нас.jpeg";
+import ProductCard from '../components/ProductCard/ProductCard';
 
 	
 	function HomePage() {
@@ -53,8 +54,8 @@ import Онас from "../assets/img/О нас.jpeg";
 	            <img src={Онас}
 				padding="45"
 				margin="100"
-				width="200"
-				height="70"
+				width="500px"
+				height="300px"
 				
 				alt="О нас" className="img-fluid rounded" />
 	          </Col>

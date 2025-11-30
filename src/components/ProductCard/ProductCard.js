@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './ProductCard.css'; // Создадим этот CSS файл для дополнительных стилей
+import './ProductCard.css'; 
 import ProductsPage from '../../pages/ProductsPage';
 
 function ProductCard({ imageUrl, title, description }) {

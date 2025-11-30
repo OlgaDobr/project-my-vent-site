@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './Header.css'; // Ваши стили для хедера
+import './Header.css'; 
 import logo from '../../assets/img/logo.png';
 
 function Header() {

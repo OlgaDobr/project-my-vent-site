@@ -9,6 +9,11 @@ const mockOrders = [
     { id: 3, orderDate: '2025-11-05', customer: 'Сидоров Сергей', total: 18000, status: 'Отменен', items: [/* детали заказа */]  },
     { id: 4, orderDate: '2025-10-28', customer: 'Смирнов Алексей', total: 30000, status: 'В обработке', items: [/* детали заказа */]  },
     { id: 5, orderDate: '2025-10-20', customer: 'Кузнецов Дмитрий', total: 25000, status: 'Доставлен', items: [/* детали заказа */]  },
+    { id: 6, orderDate: '2025-11-15', customer: 'Иванов Иван', total: 15000, status: 'В обработке', items: [/* детали заказа */] },
+    { id: 7, orderDate: '2025-11-10', customer: 'Петров Петр', total: 22000, status: 'Доставлен', items: [/* детали заказа */]  },
+    { id: 8, orderDate: '2025-11-05', customer: 'Сидоров Сергей', total: 18000, status: 'Отменен', items: [/* детали заказа */]  },
+    { id: 9, orderDate: '2025-10-28', customer: 'Смирнов Алексей', total: 30000, status: 'В обработке', items: [/* детали заказа */]  },
+    { id: 10, orderDate: '2025-10-20', customer: 'Кузнецов Дмитрий', total: 25000, status: 'Доставлен', items: [/* детали заказа */]  },
 ];
 
 function Orders() {

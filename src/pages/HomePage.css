@@ -1,5 +1,5 @@
 	.hero-section {
-	  background: url('../../src/assets/img/ventilyatsiya2.jpg') no-repeat center center/cover;
+	  background: url('../assets/img/ventilyatsiya2.jpg') no-repeat center center/cover;
 	  min-height: 60vh;
 	  display: flex;
 	  align-items: center;
@@ -23,11 +23,16 @@
 	h1 {
     color: blue;
 	}
+	.img {
+		width: 70px;
+		height: 70px;
+	}
 
 	.id1 {
-		background: url('../assets/img/Вентилятор YWF-4-E.jpeg');
-
+		background: url('../assets/img/ventilyatsiya2.jpg');
 	}
+
+	
 
 	.btn-primary {
         background-color: #1e89e1; 
