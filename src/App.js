@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import Section from './components/Section/Section';
 import Card from './components/Card/Card';
 import ProductCard from './components/ProductCard/ProductCard';
+import ProductList from './components/ProductList/ProductList';
 //import OrderItem from './components/OrderItem/OrderItem';
 //import OrderItemsList from './components/OrderItemsList/OrderItemsList';
 import HomePage from './pages/HomePage';
@@ -36,7 +37,8 @@ import logo from './logo.svg';
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/card" element={<Card />} />
             <Route path="/section" element={<Section />} />
-            <Route path="/productcard" element={<ProductCard />} />
+            <Route path="/productCard" element={<ProductCard />} />
+            <Route path="/productList" element={<ProductList />} />
             <Route path="/carousel" element={<CarouselPage />} />
             <Route path="/orders" element={<OrdersPage />} />
             <Route path="/orderItem" element={<OrderItemsPage />} />

@@ -27,6 +27,7 @@ function MyCard(props) {
               {props.description}
             </Card.Text>
             <Button variant="primary" onClick={handleClick}>Подробнее</Button>  
+            {/* <Button variant="primary" onClick={handleClick}>Купить</Button> */}
           </Card.Body>
         </Card>
       ) : ( // Иначе показываем информацию

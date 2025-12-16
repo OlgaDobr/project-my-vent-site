@@ -4,6 +4,7 @@ import axios from 'axios';
 import Section from '../components/Section/Section';
 import Card from '../components/Card/Card';
 import ProductCard from '../components/ProductCard/ProductCard';
+import ProductList from '../components/ProductList/ProductList';
 import './ProductsPage.css'; 
 import Product1 from "../assets/img/Product1.jpeg"; 
 import Product2 from "../assets/img/Product2.jpeg"; 
