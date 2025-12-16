@@ -31,6 +31,11 @@ import ventvideo2 from "../assets/ventvideo2.MP4";
 	          </Col>
 	          <Col md={6}>
 	            <img src={Нашакоманда} 
+				padding="45"
+				margin="100"
+				width="500px"
+				height="300px"
+				
 				alt="Наша команда" className="img-fluid rounded" />
 	          </Col>
 	        </Row>
@@ -78,11 +83,20 @@ import ventvideo2 from "../assets/ventvideo2.MP4";
 	          <Col md={6}>
 			  <h3>Наш офис</h3>
 	            <img src={Нашофис} 
+				padding="45"
+				margin="100"
+				width="500px"
+				height="300px"
 				alt="Наш офис" className="img-fluid rounded" />
 	          </Col>
 	          <Col md={6}>
 	            <h3>Наши Ценности</h3>
 				<img src={Нашиценности} 
+				padding="45"
+				margin="100"
+				width="500px"
+				height="300px"
+
 				alt="Наши ценности" className="img-fluid rounded" />
 	            <ul>
 	              <li><strong>Качество:</strong> Мы гарантируем высокое качество всех наших работ.</li>
