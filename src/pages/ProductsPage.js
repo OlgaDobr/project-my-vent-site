@@ -5,6 +5,8 @@ import Section from '../components/Section/Section';
 import Card from '../components/Card/Card';
 import ProductCard from '../components/ProductCard/ProductCard';
 import ProductList from '../components/ProductList/ProductList';
+import BuyButton from '../components/BuyButton/BuyButton';
+import { Button } from 'react-bootstrap';
 import './ProductsPage.css'; 
 import Product1 from "../assets/img/Product1.jpeg"; 
 import Product2 from "../assets/img/Product2.jpeg"; 
@@ -45,11 +47,13 @@ import Product6 from "../assets/img/Product6.jpeg";
 	        <Form.Group className="mb-4">
 	          <Form.Control
 	            type="text"
-	            placeholder="Поиск по названию или описанию..."
+	            placeholder="Поиск по названию или описанию..." 
 	            value={searchTerm}
 	            onChange={(e) => setSearchTerm(e.target.value)}
 	          />
 	        </Form.Group>
+
+			
 	
 	        <Row>
 	          {filteredProducts.length > 0 ? (
@@ -75,5 +79,46 @@ import Product6 from "../assets/img/Product6.jpeg";
 	    </div>
 	  );
 	}
+
+
+
+
+    const App = () => {
+    const [cart, setCart] = useState([]);
+
+    const addToCart = (product) => {
+        setCart([...cart, product]);
+        alert(`${product.name} добавлен в корзину!`);
+    };
+
+    const products = [
+        { id: 1, name: 'Товар 1', price: 100 },
+        { id: 2, name: 'Товар 2', price: 200 },
+        // Добавьте больше товаров по необходимости
+    ];
+
+    return (
+        <div>
+            <h1>Магазин</h1>
+            <div className="product-list">
+                {products.map(product => (
+                    <div key={product.id} className="product">
+                        <h2>{product.name}</h2>
+                        <p>Цена: {product.price} руб.</p>
+                        <BuyButton product={product} addToCart={addToCart} />
+                    </div>
+                ))}
+            </div>
+            <h2>Корзина</h2>
+            <ul>
+                {cart.map((item, index) => (
+                    <li key={index}>{item.name}</li>
+                ))}
+            </ul>
+        </div>
+    );
+};
+
+
 	
 	export default ProductsPage;

@@ -6,6 +6,7 @@ import Section from './components/Section/Section';
 import Card from './components/Card/Card';
 import ProductCard from './components/ProductCard/ProductCard';
 import ProductList from './components/ProductList/ProductList';
+import BuyButton from './components/BuyButton/BuyButton';
 //import OrderItem from './components/OrderItem/OrderItem';
 //import OrderItemsList from './components/OrderItemsList/OrderItemsList';
 import HomePage from './pages/HomePage';
@@ -39,6 +40,7 @@ import logo from './logo.svg';
             <Route path="/section" element={<Section />} />
             <Route path="/productCard" element={<ProductCard />} />
             <Route path="/productList" element={<ProductList />} />
+            <Route path="/buyButton" element={<BuyButton />} />
             <Route path="/carousel" element={<CarouselPage />} />
             <Route path="/orders" element={<OrdersPage />} />
             <Route path="/orderItem" element={<OrderItemsPage />} />

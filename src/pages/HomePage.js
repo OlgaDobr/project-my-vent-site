@@ -3,10 +3,12 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import Section from '../components/Section/Section';
 import Card from '../components/Card/Card';
 import './HomePage.css'; 
-import img1 from '../assets/img/ img1.jpg';
-import img2 from '../assets/img/ img2.jpg';
-import img3 from '../assets/img/ img3.jpg';
-import img4 from '../assets/img/ img4.jpg';
+import img1 from '../assets/img home/img1.jpeg';
+import img2 from '../assets/img home/img2.jpeg';
+import img3 from '../assets/img home/img3.jpeg';
+import img4 from '../assets/img home/img4.jpg';
+import img5 from '../assets/img home/img5.jpeg';
+import img6 from '../assets/img home/img6.jpeg';
 import Онас from "../assets/img/О нас.jpeg";
 import ProductCard from '../components/ProductCard/ProductCard';
 
@@ -14,10 +16,12 @@ import ProductCard from '../components/ProductCard/ProductCard';
 	function HomePage() {
 	  // Пример данных (в реальном приложении будут получены с бэкенда)
 	  const featuredProducts = [
-	    { id: 1, imageUrl: img1, title: 'Вентилятор', description: 'Высокоэффективный осевой вентилятор для промышленных применений.', link: '#' },
-	    { id: 2, imageUrl: img2, title: 'Воздуховод гибкий', description: 'Гибкие воздуховоды из ПВХ, армированные спиралью.', link: '#' },
-	    { id: 3, imageUrl: img3, title: 'Система фильтрации воздуха', description: 'Комплексные решения для очистки воздуха в помещениях.', link: '#' },
-		{ id: 4, imageUrl: img4, title: 'Система фильтрации воздуха', description: 'Комплексные решения для очистки воздуха в помещениях.', fullDescription: 'филтрация воздуха новейшим оборудованием',link: '#' },
+	    { id: 1, imageUrl: img1, title: 'Вентилятор', description: 'Высокоэффективный осевой вентилятор для промышленных применений.', fullDescription: 'филтрация воздуха новейшим оборудованием', link: '#' },
+	    { id: 2, imageUrl: img2, title: 'Воздуховод гибкий', description: 'Гибкие воздуховоды из ПВХ, армированные спиралью.', fullDescription: 'филтрация воздуха новейшим оборудованием',link: '#' },
+	    { id: 3, imageUrl: img3, title: 'Система фильтрации воздуха', description: 'Комплексные решения для очистки воздуха в помещениях.', fullDescription: 'филтрация воздуха новейшим оборудованием', link: '#' },
+		{ id: 4, imageUrl: img4, title: 'Вентиляция в бизнес центрах', description: 'Комплексные решения для очистки воздуха в помещениях.', fullDescription: 'филтрация воздуха новейшим оборудованием',link: '#' },
+		{ id: 5, imageUrl: img5, title: 'Вентиляция офисных помещений', description: 'Комплексные решения для очистки воздуха в помещениях.', fullDescription: 'филтрация воздуха новейшим оборудованием',link: '#' },
+		{ id: 6, imageUrl: img6, title: 'Кондиционировние на промышленных объектах', description: 'Комплексные решения для очистки воздуха в помещениях.',fullDescription: 'филтрация воздуха новейшим оборудованием',link: '#' },
 	  ];
 	  
 	
