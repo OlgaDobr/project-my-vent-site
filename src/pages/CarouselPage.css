@@ -6,6 +6,12 @@
   padding: 20px 0;
 }
 
+.carousel h2 {
+  font-size: 1.5rem;
+	  margin-bottom: 30px;
+	  color: rgb(61, 22, 220);
+}
+
 /* Стиль для самой карусели */
 .carousel {
   position: relative;
@@ -44,6 +50,20 @@
   transition: opacity 0.3s;
   
 }
+
+.carousel p {
+	  font-size: 1.5rem;
+	  margin-bottom: 30px;
+	  color: rgb(61, 22, 220);
+	}
+
+  .carousel h3 {
+	  font-size: 1.5rem;
+	  margin-bottom: 30px;
+	  color: rgb(61, 22, 220);
+	}
+
+
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {

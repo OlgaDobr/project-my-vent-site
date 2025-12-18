@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import './Orders.css'; 
+//import { Card } from 'react-bootstrap';
 //import { API_ENDPOINT } from '../config'; // Предполагаемый файл конфигурации
 
 const mockOrders = [

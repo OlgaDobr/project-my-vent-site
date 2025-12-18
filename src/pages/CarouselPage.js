@@ -146,8 +146,9 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Загородный автосервис</h3>
+          <p>Выполнение наружной и внутренней системы 
+            вентиляции и кондиционирования с ионизацией воздуха</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -158,8 +159,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Промышленные рекуператоры</h3>
+          <p>Выполнено из высококачественных материалов.</p>
         </Carousel.Caption>
       </Carousel.Item>
 

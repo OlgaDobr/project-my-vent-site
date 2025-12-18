@@ -12,6 +12,18 @@ function MyCard(props) {
   const handleBackClick = () => {
     setShowInfo(false); // Возвращаемся к карточке
   };
+  const buy = () => {
+    
+    //buy logic
+    console.log('click buy button');
+  };
+  const handleBuyClick = () =>  {
+    setShowInfo(true);
+  };
+
+  const handleBackBuyClick = () => {
+    setShowInfo(false);
+  };
 
 
 
@@ -27,7 +39,11 @@ function MyCard(props) {
               {props.description}
             </Card.Text>
             <Button variant="primary" onClick={handleClick}>Подробнее</Button>  
-            {/* <Button variant="primary" onClick={handleClick}>Купить</Button> */}
+
+            <div>
+            <Button variant="primary" onClick={handleBuyClick}>Купить</Button>
+            </div>
+
           </Card.Body>
         </Card>
       ) : ( // Иначе показываем информацию
@@ -36,7 +52,17 @@ function MyCard(props) {
           {/* <p>Дополнительная информация, которую нужно отобразить...</p> */}
           <p>{props.fullDescription}</p>
           <Button variant="secondary" onClick={handleBackClick}>Назад</Button>
-        </div>
+       
+
+       
+          <h3>{props.title} - сделать заказ</h3>
+           <p>{props.fullDescription}</p>
+           <Button variant="secondary" onClick={handleBackBuyClick}>Заказать</Button>
+           </div>
+
+       
+        
+
       )}
     </>
 
