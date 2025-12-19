@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Card, Button } from 'react-bootstrap';
 import './Card.css'; 
 
-function MyCard(props) {
+function MyCard(props, product, onOrder ) {
   const [showInfo, setShowInfo] = useState(false);  // Начальное состояние: карточка отображается
 
   const handleClick = () => {
@@ -62,6 +62,8 @@ function MyCard(props) {
 
        
         
+       
+
 
       )}
     </>

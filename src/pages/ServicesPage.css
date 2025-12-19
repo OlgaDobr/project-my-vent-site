@@ -51,12 +51,15 @@
 .image-text {
   font-size: 1.1em;
   font-weight: bold;
+  color: blueviolet;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .card-title {
   font-size: 1.2em;
   text-align: center;
   padding: 10px 0; /* Паддинг для заголовка */
+  color: blueviolet;
 }
 
 

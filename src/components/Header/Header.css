@@ -1,6 +1,6 @@
 	/* src/components/Header/Header.css */
-	.custom-header {
-	  background-color: #32e126 !important; /* Пример цвета фона */
+	.custom-header .navbar{
+	  background-color: #26b5e1 !important; /* Пример цвета фона */
 	  box-shadow: 0 2px 4px rgba(144, 112, 25, 0.1);
 	}
 	

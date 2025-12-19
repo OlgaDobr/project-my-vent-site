@@ -172,8 +172,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Промышленное помещение</h3>
+          <p>Прочные и крепкие воздуховоды.</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -184,8 +184,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Загородный коттедж</h3>
+          <p>Вентиляция и кондиционирование под ключ</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -196,8 +196,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Городские здания</h3>
+          <p>Высокоэкологическое оборудование</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -208,8 +208,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Коммерческий объект</h3>
+          <p>Начало работ</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -220,8 +220,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Чайхана</h3>
+          <p>Рабочая система приточной вентиляции, чистый воздух без посторонних запахов</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -232,8 +232,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Цех под мастерскую</h3>
+          <p>Наличие сильной системы приточной вентиляции для работ с химикатами</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -244,8 +244,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Жилой частный дом</h3>
+          <p>Приточно вытяжная вентиляция</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -256,8 +256,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Жилой многоквартирный дом</h3>
+          <p>Вентиляция и кондиционирование</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -268,8 +268,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Помешение ресторана</h3>
+          <p>Сильное и мощное вентиляционное оборудование и вытяжки</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -280,8 +280,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Помещение кухни ресторана</h3>
+          <p>Сильнейшие вытяжки из высокоэффективного материала</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -292,8 +292,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Холодильный цех</h3>
+          <p>Вентиляция</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -304,8 +304,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Склад крупного обувного магазина</h3>
+          <p>Вытяжки и кондиционирование</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -316,8 +316,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Зал магазина в торговом центре для посетителей</h3>
+          <p>Мощнейшая система приточно-вытяжной вентиляции</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -328,8 +328,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Цех по сборке металлоконструкций</h3>
+          <p>сильнейшая система, охлаждающая и осушающая помещение</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -340,8 +340,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>Первый слайд</h3>
-          <p>Описание первого слайда.</p>
+          <h3>Цех внешний вид</h3>
+          <p>Мощные приточные установки</p>
         </Carousel.Caption>
       </Carousel.Item>
 
