@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom'; // Если используете роутинг
 import axios from 'axios';
 //import OrdersPage from './pages/OrdersPage';
+import ProductsPage from './ProductsPage';
 
 const mockOrderItems = [
   {

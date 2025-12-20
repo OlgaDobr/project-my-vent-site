@@ -44,13 +44,11 @@ CREATE TABLE qustions_options (
 CREATE TABLE user_answers (
     user_id INT NOT NULL,
     question_id INT NOT NULL,
-    right_answer TINYINT(1),
-    option_id INT NOT NULL
-    PRIMARY KEY (usr_id, question_id),
+    option_id INT NOT NULL,
+    PRIMARY KEY (user_id, question_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (question_id) REFERENCES questions(id),
     FOREIGN KEY (option_id) REFERENCES question_options(id)
-
 );
 
  

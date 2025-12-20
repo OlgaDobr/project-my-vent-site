@@ -1,71 +1,53 @@
-# Getting Started with Create React App
+# Мой вентиляционный сайт
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Логотип сайта (Вентилятор)](src/assets/img/logo.png)
 
-## Available Scripts
+Здравствуйте, уважаемые пользователи! Данный проект реализован как аналог
+небольших вентиляционных многостраничных сайтов -  _Мой вентиляционный сайт_.  
+ На главной странице сайта можно увидеть различные популярные решения с карточками и описанием, 
+ также есть продукты и услуги на других страницах. Страница _Контакты_ с формой обратной связи.
+Во вкладке _Наши объекты_ реализована карусель с различными изображениями и описанием.
 
-In the project directory, you can run:
+## Также в проекте :  
+- все карточки описывают каждый продукт или услугу;  
+- собственный дизайн сайта.
 
-### `npm start`
+Приступим  к проекту.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Чтобы запустить проект необходимо:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+В _Командной строке_ или _Mac Терминалl_ написать следующую команду:  
 
-### `npm test`
+```bash
+git clone git@github.com:OlgaDobr/project-my-vent-site
+```  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Далее, в _Командной строке_ или _Mac Терминал_ войдите в проект  
+и напишите следующую команду:
 
-### `npm run build`
+```bash
+npm install --force
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    или
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+npm i --force
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+В каталоге проекта вы можете запустить:
 
-### `npm run eject`
+```bash
+npm run build
+```  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Приложение запускается в режиме разработки. Чтобы просмотреть его в браузере,  
+откройте http://localhost:8000 .  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Для входа в _Adminer_, необходимо скачать _Docker Desktop_ и в кoнсоле написать следующую команду:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+docker compose up
+```  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# project-my-vent-site
+Приложение запускается в режиме разработки. Для того, чтобы просмотреть его в браузере,  
+откройте http://localhost:8080 .  
+В файле compose.yaml есть логин, пароль и база данных для входа в _Adminer_.

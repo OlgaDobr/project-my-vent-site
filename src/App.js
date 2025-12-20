@@ -43,9 +43,9 @@ import logo from './logo.svg';
             <Route path="/buyButton" element={<BuyButton />} />
             <Route path="/carousel" element={<CarouselPage />} />
             <Route path="/orders" element={<OrdersPage />} />
-            <Route path="/orderItem" element={<OrderItemsPage />} />
+            <Route path="/orderItems" element={<OrderItemsPage />} />
             <Route path="/privacyPolicy" element={<PrivacyPolicyPage />} />
-            {/* <Route path="/orderitem" element={<OrderItem />} /> */}
+            {/* <Route path="/orderItem" element={<OrderItem />} /> */}
             {/* <Route path="/orderItemsList" element={<OrderItemsList />} /> */}
            
            
