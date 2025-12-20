@@ -121,5 +121,17 @@ import Product6 from "../assets/img/Product6.jpeg";
 };
 
 
+
+	// useEffect(() => {
+	//   const fetchProducts = async () => {
+	//     try {
+	//       const response = await axios.get('http://localhost:8000/api/products'); // URL вашего бэкенд API
+	//       setProducts(response.data);
+	//     } catch (error) {
+	//       console.error("Error fetching products:", error);	    }
+	//   };
+	//   fetchProducts();
+	// }, []);
+
 	
 	export default ProductsPage;
