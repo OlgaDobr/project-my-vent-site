@@ -76,6 +76,11 @@ import Section from '../components/Section/Section';
 	            </Form>
 	          </Col>
 	        </Row>
+			
+
+			<a href="https://xn-----6kc5acifckfvb0aui3a.xn--p1ai/catalog" target="_blank" rel="noopener noreferrer">
+  Перейти по ссылке в каталог товаров
+</a>
 	      </Section>
 		  </Container>
 	    </div>

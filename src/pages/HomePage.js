@@ -91,6 +91,9 @@ import ProductCard from '../components/ProductCard/ProductCard';
 	          <h2>Готовы улучшить ваш микроклимат?</h2>
 	          <p className="mb-4">Свяжитесь с нами для бесплатной консультации и расчета.</p>
 	          <Button variant="success" size="lg" href="/contact">Заказать консультацию</Button>
+
+
+			  
 	        </Container>
 	      </section>
 	    </div>

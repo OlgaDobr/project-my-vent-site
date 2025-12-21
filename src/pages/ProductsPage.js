@@ -75,6 +75,11 @@ import Product6 from "../assets/img/Product6.jpeg";
 	            </Col>
 	          )}
 	        </Row>
+
+
+			 <h2>Заказать продукт можно по ссылке</h2>
+	          <p className="mb-4">Свяжитесь с нами для бесплатной доставки и консультации.</p>
+	          <Button variant="success" size="lg" href="/contact">Заказать продукты</Button>
 	      </Section>
 		  </Container>
 	    </div>
