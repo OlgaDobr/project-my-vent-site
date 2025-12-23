@@ -48,7 +48,7 @@ CREATE TABLE user_answers (
     PRIMARY KEY (user_id, question_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
     FOREIGN KEY (question_id) REFERENCES questions(id),
-    FOREIGN KEY (option_id) REFERENCES question_options(id)
+    -- FOREIGN KEY (option_id) REFERENCES question_options(id)
 );
 
  
@@ -211,3 +211,4 @@ AND product.name IN (
 
 CREATE INDEX idx_product_categories_product_id ON product_categories(product_id);
 CREATE INDEX idx_product_categories_category_id ON product_categories(category_id);
+

@@ -7,7 +7,7 @@ import ProductCard from '../components/ProductCard/ProductCard';
 import ProductList from '../components/ProductList/ProductList';
 import BuyButton from '../components/BuyButton/BuyButton';
 import { Button } from 'react-bootstrap';
-import { AuthProvider } from '../context/AuthContext';
+import { AuthProvider } from '../context/CartContext';
 import './ProductsPage.css'; 
 import Product1 from "../assets/img/Product1.jpeg"; 
 import Product2 from "../assets/img/Product2.jpeg"; 

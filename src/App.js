@@ -18,6 +18,8 @@ import CarouselPage from './pages/CarouselPage';
 import OrdersPage from './pages/OrdersPage';
 import OrderItemsPage from './pages/OrderItemsPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
+//import { CartProvider } from './CartContext';
+//import Cart from './pages/Cart';
 
 //import MediaPage from './pages/MediaPage';
 import './App.css';
@@ -26,6 +28,7 @@ import logo from './logo.svg';
 
 	function App() {
 	  return (
+      // <CartProvider>
 	    <Router>
       <div className="App">
 	        <Header />
@@ -45,6 +48,8 @@ import logo from './logo.svg';
             <Route path="/orders" element={<OrdersPage />} />
             <Route path="/orderItems" element={<OrderItemsPage />} />
             <Route path="/privacyPolicy" element={<PrivacyPolicyPage />} />
+            {/* <Route path="/cart" element={<Cart />} /> */}
+
             {/* <Route path="/orderItem" element={<OrderItem />} /> */}
             {/* <Route path="/orderItemsList" element={<OrderItemsList />} /> */}
            
@@ -56,6 +61,7 @@ import logo from './logo.svg';
         <Footer />
       </div>
     </Router>
+    // </CartProvider>
   );	
 }
 

@@ -28,6 +28,8 @@ function Header() {
                                         <Link to="/contact" className="nav-link">{("Контакты")}</Link>
                                         <Link to="/carousel" className="nav-link">{("Наши объекты")}</Link>
                                         <Link to="/orders" className="nav-link">{("Заказы")}</Link>
+                                        <Link to="/cart" className="nav-link">{("Корзина")}</Link>
+
                                         {/* <Link to="/orderItems" className="nav-link">{("Детали заказа")}</Link> */}
 
                         	          </Nav>

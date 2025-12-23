@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { Card, Button } from 'react-bootstrap';
 import './Card.css'; 
+//import { useCart } from './CartContext';
+//import React, { useContext } from 'react';
+//import { CartContext } from './CartContext';
+
 
 function MyCard(props, product, onOrder ) {
   const [showInfo, setShowInfo] = useState(false);  // Начальное состояние: карточка отображается
