@@ -35,8 +35,9 @@ CREATE TABLE qustions_options (
     option_text VARCHAR(255) NOT NULL,
     is_correct BOOLEAN NOT NULL DEFAULT FALSE,
     question_id INT,
-    FOREIGN KEY (question_id) REFERENCES questions(id)
-    );
+    FOREIGN KEY (question_id) REFERENCES questions(id),
+    -- FOREIGN KEY (question_option_id) REFERENCES question_options(id)
+);
 
 
 
@@ -47,7 +48,7 @@ CREATE TABLE user_answers (
     option_id INT NOT NULL,
     PRIMARY KEY (user_id, question_id),
     FOREIGN KEY (user_id) REFERENCES users(id),
-    FOREIGN KEY (question_id) REFERENCES questions(id),
+    FOREIGN KEY (question_id) REFERENCES questions(id)
     -- FOREIGN KEY (option_id) REFERENCES question_options(id)
 );
 
